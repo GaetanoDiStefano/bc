@@ -6,12 +6,6 @@ $a = "questa è una frase";
 $b = "anche questa lo è";
 $c = "perepe perepe perepe";
 
-$ha = hash("sha256",$a);
-$hb = hash("sha256",$b.$ha);
-
-echo $ha."\n";
-echo $hb."\n";
-
 class Block implements JsonSerializable
 {
 	public $hash;
@@ -181,7 +175,7 @@ $bc->save("bc.txt");
 
 $bc=null;
 $bc = new noobChain();
-$bc->getFromFile("bc.txt");
+$bc->getFromFile("bc1_java.txt");
 echo "BlockChain is ";
 if ($bc->isValid()) echo "Ok.\n";
 else echo "Ko.\n";
