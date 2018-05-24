@@ -8,10 +8,10 @@ This program has two class and a main to test all.
 4. Can read a block-chain from a file and verify it.
 
 To start:
-give execution permission to bc01.php
-give read/write permission to bc-php
-cd into directory
-./bc01.php
+- give execution permission to bc01.php
+- give read/write permission to bc-php
+- cd into directory
+$ ./bc01.php
 
 bc01.php creates bc.txt with json format of block-chain data.
 
