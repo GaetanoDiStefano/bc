@@ -1,5 +1,5 @@
 To start:
-- give read/erite permission to bc-java dir and subdirs: chmod -R a+rw bc-java/* 
+- give read/write permission to bc-java dir and subdirs: chmod -R a+rw bc-java/* 
 - cd in bc-java directory
 - explode gson-2.8.2.jar. Now you have com directory
 - compile java with this command:
