@@ -175,7 +175,7 @@ $bc->save("bc.txt");
 
 $bc=null;
 $bc = new noobChain();
-$bc->getFromFile("bc1_java.txt");
+$bc->getFromFile("bc.txt");
 echo "BlockChain is ";
 if ($bc->isValid()) echo "Ok.\n";
 else echo "Ko.\n";
